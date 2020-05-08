@@ -74,12 +74,7 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ![](./images/SelectERPConnector.png " ")
 
--   The Digital Assistant will prompt you to enter:
-    - The merchant's name: **Enter your favorite place to eat**
-    - The date of the expense: **Enter a date of your choice** (example 3/23/20) 
-    - The category of the expense: **Select Breakfast**
-
-![](./images/da3.jpg " ")
+-   You will be prompted to enter a name for the connection you are trying to make. Enter **ERP Cloud** in the name section and the Identifier will autogenerate. Leave the role as **Trigger and Invoke**. 
 
 ![](./images/da4.jpg " ")
 

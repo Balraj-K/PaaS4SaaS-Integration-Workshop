@@ -203,7 +203,7 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ![](./images/Rest5.png " ")
 
--   Click the **Next Button**
+-   Click the **Next Button**.
 
 ![](./images/Rest4.png " ")
 
@@ -226,67 +226,47 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ![](./images/Rest8.png " ")
 
--   Click the **Next Button**
+-   Click the **Next Button**.
 
 ![](./images/Rest6.png " ")
 
--   Review the Summary and click **Done**
+-   Review the Summary and click **Done**.
 
 ![](./images/Rest9.png " ")
 
-### **STEP 2**: Add Cloud ERP Adapter
+### **STEP 2**: Add and Configure Cloud ERP Adapter
 
--   Enter the username **brian.joseph** and the **password** you copied earlier in the workshop.
+-   Hover over the grey line  below the Rest Adapter. A **+ Icon** will pop up and then you can click on it.
 
-![](./images/signin-brian.jpg " ")
+![](./images/SelectERPAdapter.png " ")
 
-### **STEP 3**: Add ADW Adapter
+-   Type in **ERP Cloud** or whatever name you gave your ERP connection and select it.
 
--   We are going to switch to the perspective of a new hire. This new hire was told to procure a laptop and business cards through his employer's pre-built Digital Assistant that has been integrated with ERP Cloud Procurement module. **Click** on the **Digital Assistant** icon in the bottom right hand corner and type in **I need a new laptop**
+![](./images/TypeERPCloud.png " ")
 
-![](./images/laptop.jpg " ")
+-   Input a name for the connection, **CreateERPOrder** and click the **Next Button**.
 
--   The Digital Assistant will prompt you if you would like it to recommend a laptop based on your job role. Type in **Yes**.
+![](./images/ERPBasicInfo.png " ")
 
--   Browse what is available by clicking on the **Yellow side arrow** and select **more details** on your favorite option.
+-   Select the first action and click the next button. 
 
-![](./images/browse.jpg " ")
+![](./images/ERPAction.png " ")
 
--   The Digital Assistant will provide you with more details and ask if you would like more details on any other laptops.
+-   Select **Services** from the **Browse By** dropdown.
 
--   Type in **No**
+![](./images/ERPOperation.png " ")
 
-![](./images/no.jpg " ")
+-   Type in **Order** in the search bar, select **OrderImportService** from the list and then select **createOrders** from the drop down menu. Then click **Next**. 
 
--   The Digital Assistant will ask if you have made a choice. Type in **Yes** and select the **Laptop** you would like to procure.
+![](./images/ERPCreateOrder.png " ")
 
-![](./images/select.jpg " ")
+-   Review the summary and click **Done**.
 
--   The Digital Assistant will create the purchase requisition and route the req. to your manager for approval. 
+![](./images/ERPSummary.png " ")
 
-![](./images/purchase.jpg " ")
 
--   The next thing we need to do is procure business cards. To do this type in **Order business cards**
+### **STEP 3**: Add and Configure ADW Adapter
 
--   The Digital Assistant will respond and give you a preview. Select **Tap here**.
-
--   Select **Tap here**
-
-![](./images/bc.jpg " ")
-
--   This will open up a new tab where you can preview your business cards, select the quantity, and submit the order.
-
-![](./images/wb-1.jpg " ")
-
--   Select the quantity you want to order and select submit. **Close** the tab and open up the tab where you are logged into *ERP Cloud**.
-
-![](./images/wb-2.jpg " ")
-
--   The Digital Assistant will create the requisition, display the status of the order, and give you the requisition number.
-
-![](./images/fin.jpg " ")
-
--   When a new tab opened up, the application you were viewing is what's called a **WebView**. A WebView is an application that enables structured data entry through UI element and is able to integrate with the Digital Assistant. The WebView can validate user input and can be built using Oracle Visual Builder Cloud Service, like the one seen earlier, Oracle JET, or React. 
 
 
 ## Part 3. Mobile Application and Oracle's AI Voice

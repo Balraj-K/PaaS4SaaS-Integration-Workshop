@@ -1,4 +1,4 @@
-# Lab 100: Oracle Analytics for Application (OAX) with ERP Cloud (INTERNALLY ONLY
+# Lab 100: Oracle Analytics for Application (OAX) with ERP Cloud (INTERNALLY ONLY)
 
 <!-- Comment out table of contents
 ## Table of Contents

@@ -98,36 +98,45 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ![](./images/ERPSecurity.png " ")
 
--   Scroll to the top and click on the **Test Button** and then the **Save Button** 
+-   Scroll to the top and click on the **Test Button** and then the **Save Button**. 
 
 ![](./images/SaveERPAdapter.png " ")
 
 ### **STEP 2**: Create a Connection to Oracle Autonomous Data Warehouse
--   One other way to create an expense report in a Digital Assistant is to upload an image of a receipt. The Digital Assistant uses key words scanned from the image to fill in the expense fields.
+-   Click on the **Create button** on the top right corner. 
 
--   Download [sample receipt](./files/receipt.jpg)
+![](./images/ConnectionsPage.png " ")
 
--   **Upload** the image by selecting the icon to the left of the chat box and navigate to where you downloaded the sample receipt and **upload**. 
+-   Enter **ADW** in the Search bar and select **Oracle ADW**.
 
-![](./images/da7.jpg" ")
+![](./images/SearchforADW.png " ")
 
--   The Digital Assistant will ask you to enter **the expense type** and select **lunch**
+-   Select the ADW Option
 
-![](./images/da8.jpg " ")
+![](./images/SelectADW.png " ")
 
--   The Digital Assistant will give you a summary of the expense and ask you to confirm by entering the **Confirmation Code** in the last message sent by the digital assistant. 
+-   You will be prompted to enter a name for the connection you are trying to make. Enter **ADW ERP** in the name section and the Identifier will autogenerate. Leave the role as **Trigger and Invoke**. Click the **Create Button**.
 
-![](./images/da9.jpg " ")
+![](./images/ADWDetails.png " ")
 
--   To change the date of the last expense submitted, type in **modify the last expense**
+-   Click on the **Configure Connectivity Button** to enter connection properties.
 
--   Type in **Change date to last tuesday**. The Digital Assistant recognizes the correct date through natural language processing, then saves the change, and automatically submits the new expense.  
+![](./images/ADWSelectConnectivity.png " ")
 
-![](./images/da10.jpg " ")
+-   Enter value for the **Service name** field. You can get this from the Wallet in the **tnsnames.ora** file. Then click on the **OK Button**.
 
--   Confirm by entering the **confirmation code** in the last message sent from the Digital Assistant. 
+![](./images/ADWInputConnection.png " ")
 
--   The Digital Assistant was able to retrieve data from ERP's Finance Module to create, retrieve, and update an expense report.  
+-   Click on the **Configure Security Button** to enter security credentials. 
+
+![](./images/ADWSelectSecurity.png " ")
+
+-   Upload your wallet file and enter all the security details. Then click on the **OK Button**.
+
+![](./images/ADWInputSecurity.png " ")
+
+-   Scroll to the top and click on the **Test Button** and then the **Save Button** 
+
 
 ## Part 3. Change persona
 

@@ -24,55 +24,32 @@ This lab walks you through how to create an Integration in OIC to create a Sales
 -   To learn more about , Oracle ERP Cloud feel free to explore the capabilities by clicking on this link: [ERP Cloud](https://go.oracle.com/LP=85331?elqCampaignId=48423&src1=ad:pas:go:dg:erp&src2=wwmk160606p00030c0001&SC=sckw=WWMK160606P00030C0001&mkwid=%7cpmt%7ce%7cpdv%7cc%7c&GOOGLE&oracle+erp+cloud&Cj0KCQjw7qn1BRDqARIsAKMbHDaSJX4r2woRQrLHIFTCk3imWrf6ORbhp3f1czxUvvxVTsz8Votd7TQaAhggEALw_wcB&gclid=Cj0KCQjw7qn1BRDqARIsAKMbHDaSJX4r2woRQrLHIFTCk3imWrf6ORbhp3f1czxUvvxVTsz8Votd7TQaAhggEALw_wcB&gclsrc=aw.ds)
 
 
-## Part 1. Requesting an ERP Cloud Instance
+## Part 1. Gather Pre-requisite Information
 
-### **STEP 1**: Login to Demo Central and Request an Environment
+### **STEP 1**: Obtain Oracle cloud ERP Information
 
--   Once at the [homepage](https://demo.oracle.com/apex/f?p=DEMOWEB:HOME::::::), navigate to the "Demos" section. 
+-   Obtain Oracle cloud ERP connection URL. 
 
-![](./images/demo-home.jpg " ")
+![](./images/ERP.png " ")
 
--   Click the **Register a Demo**.
+-   Usernames to Oracle cloud ERP environments are **bala.gupta** and **ava.clark**.
 
-![](./images/register.jpg " ")
+-   Obtain Password information used to log into your cloud environment.
 
--   Search or select the Demo Title called **FUSION GSI - ERP, SCM, HCM & Engagement Cloud**.
 
-![](./images/demo-title.jpg " ")
+### **STEP 2**: Obtain Oracle Autonomous Data Warehouse Information
 
--   Fill in the details, demo resource details, activity dates, and any additional information. 
+You will need the following to be able to connect to the Oracle Autonomous Data Warehouse : 
 
--   The select **Next** in the bottom right corner.
+-    Wallet file
 
-![](./images/details.jpg " ")
+-    Wallet password
 
--   In the additional information section select the Horizontal or Industry-Specific category that is most applicable. 
+-    Database user and password
 
--   The next field will ask if you want to add other to this Demo, if applicable please enter the Oracle email of the person you want to add to the demo.
+-    Database service name
 
--   Next, select the product you plan to include in your demo. This should be **Products -> Cloud Apps -> Fusion Apps -> ERP Cloud**.
-
--   Click **Next**.
-
--   Confirm your details and click **Submit**.
-
-![](./images/submit.jpg " ")
-
-### **STEP 2**: Access ERP Cloud Environment
-
--   Once the environment has been approved you will receive an email from **demo-central-noreplies_ww@oracle.com**, this will have a **link** where you can access your registration details and environment information. 
-
--   Make sure to save the access details and copy the password as we will be using it in the next part. Please **Note** that the environment password will change weekly. 
-
--   Then click on **Launch Demo**
-
-![](./images/env-details.jpg " ")
-
--   Click on **ERP and SCM Cloud Login** and you will be taken to the **Sign In** page for your ERP instance.
-
-![](./images/erp1.jpg " ")
-
--   Here you can sign-in with a few different users using the same password, but in this workshop we will be exploring two different personas. 
+-    Create
 
 ## Part 2. Interact with ODA that is integrated with ERP Cloud
 

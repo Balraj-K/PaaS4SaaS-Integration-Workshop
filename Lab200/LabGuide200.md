@@ -58,13 +58,21 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 -   Log into Oracle Integration cloud and click on **Integrations** from the menu on the left hand side. 
 ![](./images/OIChome.png " ")
 
--   This will take you to the Integrations portion of Oracle Integration from where we can build integrations between Applications. Now select **Connections** from the menu on the left to take you to the connections page. 
+-   This will take you to the Integrations portion of Oracle Integration from where we can build integrations between Applications. 
 
-![](./images/Connections Page.png)
+-   We will first create connections to all the application we plan on connecting to in our integration. In our case a connection to Oracle Cloud ERP and Oracle Autonomous Data Warehouse. 
 
--   In the chat window of the Digital Assistant type in **food expenses $15.46**. You will notice that the Digital Assistant recognizes that he wants to create a new expense and will prompt him to enter a few more details.
+-   Now select **Connections** from the menu on the left to take you to the connections page. Once on the **Connections** page click on the **Create button** on the top right corner. 
 
-![](./images/da2.jpg " ")
+![](./images/ConnectionsPage.png " ")
+
+-   In the search bar type in **ERP** and select **Oracle ERP Cloud**
+
+![](./images/SearchForERPConnector.png " ")
+
+- Click on the select button. 
+
+![](./images/SelectERPConnector.png " ")
 
 -   The Digital Assistant will prompt you to enter:
     - The merchant's name: **Enter your favorite place to eat**

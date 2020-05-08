@@ -1,4 +1,4 @@
-# Lab 200: Oracle Digital Assistant integrated with ERP Cloud (INTERNAL ONLY)
+# Lab 200: Create a Sales Order in Oracle Cloud ERP using Oracle Integration Cloud (INTERNAL ONLY)
 
 <!-- Comment out table of contents
 ## Table of Contents
@@ -7,22 +7,20 @@
 
 ## Introduction
 
-This lab walks you through registering a demo using a Fusion Apps demo title that already has an integrated Oracle Digital Assistant demo environment. From there you will be able to interact with the Digital Assistant through the perspective of a Finance Manager and a new hire. 
+This lab walks you through how to create an Integration in OIC to create a Sales Order in Oracle Cloud ERP and push data in an Oracle Autonomous Data Warehouse.  
 *In addition to the workshop*, feel free to watch the walk-through companion video by clicking on the following link:
 [Lab 200 Walkthrough Video](<INSERT LINK HERE>)
 
 
 
 ### Objectives
--   Learn how to request a demo instance of ERP Cloud
--   Understand the capabilities of Oracle's pre-built Digital Assistant skill that has been integrated with ERP Cloud.
-
+-   Understand the capabilities of Oracle Integration cloud and how to integration with Applications
 ### Required Artifacts
--   ERP Cloud Instance from [demo.oracle](https://demo.oracle.com/)
--   The estimated time to complete this lab is 30 minutes.
+-   ERP Cloud Instance from 
+-   Oracle Autonomous Data Warehouse instance with preconfigured Table and access to Wallet file with connection details.
 
 ### Extra Resources
--   To learn more about Oracle Digital Assistant (ODA), feel free to explore the capabilities by clicking on this link: [ODA Documentation](https://docs.oracle.com/en/cloud/paas/digital-assistant/)
+-   To learn more about Oracle Integration Cloud (OIC), feel free to explore the capabilities by clicking on this link: [OIC Documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/)
 -   To learn more about , Oracle ERP Cloud feel free to explore the capabilities by clicking on this link: [ERP Cloud](https://go.oracle.com/LP=85331?elqCampaignId=48423&src1=ad:pas:go:dg:erp&src2=wwmk160606p00030c0001&SC=sckw=WWMK160606P00030C0001&mkwid=%7cpmt%7ce%7cpdv%7cc%7c&GOOGLE&oracle+erp+cloud&Cj0KCQjw7qn1BRDqARIsAKMbHDaSJX4r2woRQrLHIFTCk3imWrf6ORbhp3f1czxUvvxVTsz8Votd7TQaAhggEALw_wcB&gclid=Cj0KCQjw7qn1BRDqARIsAKMbHDaSJX4r2woRQrLHIFTCk3imWrf6ORbhp3f1czxUvvxVTsz8Votd7TQaAhggEALw_wcB&gclsrc=aw.ds)
 
 

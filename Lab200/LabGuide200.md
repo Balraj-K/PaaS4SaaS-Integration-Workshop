@@ -60,7 +60,7 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 -   This will take you to the Integrations portion of Oracle Integration from where we can build integrations between Applications. Now select **Connections** from the menu on the left to take you to the connections page. 
 
-![](./images/'Connections Page.png' " ")
+![](./images/Connections Page.png)
 
 -   In the chat window of the Digital Assistant type in **food expenses $15.46**. You will notice that the Digital Assistant recognizes that he wants to create a new expense and will prompt him to enter a few more details.
 

@@ -267,9 +267,35 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ### **STEP 3**: Add and Configure ADW Adapter
 
+-   Hover over the grey arrow underneath the ERP cloud adapter. Click on the **+ Icon** and enter the ADW connection name. Select the ADW connection. 
 
+![](./images/ADW1.png " ")
 
-## Part 3. Mobile Application and Oracle's AI Voice
+-   In the configuration wizard input the name as **DataWarehouse**. From the operations drop down select **Perform an Operation on Table**. 
+
+![](./images/ADW2.png " ")
+
+-   Select **Insert** as the operation and click **Next**.
+
+![](./images/ADW3.png " ")
+
+-   Select **ADMIN** from the schema drop down. Table type can be left as **Table**. From the table list search for the table you want to input data into. In our case it is the **Orders** table. Select **Orders** and click the **single arrow pointing to the left**.
+
+![](./images/ADW4.png " ")
+
+-   Click **Import Tables Button**.
+
+![](./images/ADW5.png " ")
+
+-   Select **TransactionIdentifier** as the primary key. Then click **OK**. This will take you to the previous screen where you can click the **Next Button**.
+
+![](./images/ADW6.png " ")
+
+-   Review Summary and click **Done**.
+
+![](./images/ADW7.png " ")
+
+## Part 3. Map Data
 
 ### **STEP 1**: Initial Setup
 

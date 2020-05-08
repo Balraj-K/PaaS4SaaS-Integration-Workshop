@@ -102,7 +102,7 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ![](./images/SaveERPAdapter.png " ")
 
-### **STEP 2**: Create an Expense report using a receipt
+### **STEP 2**: Create a Connection to Oracle Autonomous Data Warehouse
 -   One other way to create an expense report in a Digital Assistant is to upload an image of a receipt. The Digital Assistant uses key words scanned from the image to fill in the expense fields.
 
 -   Download [sample receipt](./files/receipt.jpg)

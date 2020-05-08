@@ -138,21 +138,34 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 -   Scroll to the top and click on the **Test Button** and then the **Save Button** 
 
 
-## Part 3. Change persona
+## Part 3. Create Integration
 
-### **STEP 1**: Sign out kerry.lane
+-   Click on **Integrations** from the menu on the left hand side. Click on the  **Create Button** on the top right corner to create a new Integration. 
+
+![](./images/CreateIntegration.png " ")
+
+-   Select App driven Orchestration. 
+
+![](./images/SelectAppDriven.png " ")
+
+-   An Integration Details page will pop up. Enter a **Name** for your Integration. The identifier will auto-generate. The other fields can be left as is. Click the **Create Button** in the bottom.
+
+![](./images/IntegrationDetails.png " ")
+
+
+### **STEP 1**: Add Rest Adapter
 
 -   Click the top right icon and then click on **Sign Out**
 
 ![](./images/signout.jpg " ")
 
-### **STEP 2**: Sign in using brian.joseph
+### **STEP 2**: Add Cloud ERP Adapter
 
 -   Enter the username **brian.joseph** and the **password** you copied earlier in the workshop.
 
 ![](./images/signin-brian.jpg " ")
 
-### **STEP 3**: Interact with the Digital Assistant 
+### **STEP 3**: Add ADW Adapter
 
 -   We are going to switch to the perspective of a new hire. This new hire was told to procure a laptop and business cards through his employer's pre-built Digital Assistant that has been integrated with ERP Cloud Procurement module. **Click** on the **Digital Assistant** icon in the bottom right hand corner and type in **I need a new laptop**
 

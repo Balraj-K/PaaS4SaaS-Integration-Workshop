@@ -203,6 +203,36 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ![](./images/Rest5.png " ")
 
+-   Click the **Next Button**
+
+![](./images/Rest4.png " ")
+
+-   Select **JSON Sample** from the dropdown in the response payload format.
+
+![](./images/Rest6.png " ")
+
+-   Click on **enter sample JSON inline**.
+
+![](./images/Rest7.png " ")
+
+-   Enter the following Payload in the textbox and click the **OK Button**. This is the structure of the response payload format you want your API to have. 
+
+```JSON
+{
+  "orderNumber" : "A11231",
+  "orderStatus" : "Success"
+}
+```
+
+![](./images/Rest8.png " ")
+
+-   Click the **Next Button**
+
+![](./images/Rest6.png " ")
+
+-   Review the Summary and click **Done**
+
+![](./images/Rest9.png " ")
 
 ### **STEP 2**: Add Cloud ERP Adapter
 

@@ -92,6 +92,8 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 -   Click on the **Configure Security Button** to enter security credentials
 
+![](./images/ERPConnectandSecure.png " ")
+
 -   Enter security credentials and click the **OK Button** at the bottom. 
 
 ![](./images/ERPSecurity.png " ")

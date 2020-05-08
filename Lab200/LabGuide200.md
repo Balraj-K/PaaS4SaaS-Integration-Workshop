@@ -153,11 +153,56 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 ![](./images/IntegrationDetails.png " ")
 
 
-### **STEP 1**: Add Rest Adapter
+### **STEP 1**: Add and Configure Rest Adapter
 
--   Click the top right icon and then click on **Sign Out**
+-   You will be taken to a canvas where you can drag and drop the connections that you have configured and map data between applications. It is also possible to create complex logic using the action icons such as for-loops, switch statements, error handling etc. 
 
-![](./images/signout.jpg " ")
+-  Click on the **'+' Icon** to add your first adapter. In the search bar type in 'sample' to bring up the **Sample Rest Endpoint** connection. This is a rest adapter configured to be a trigger. Using a Rest trigger will expose the integration that we build as a Rest API. 
+
+![](./images/SelectSameRest.png " ")
+
+-   You will be taken to the page to configure Rest the Rest Endpoint. Enter **Request** for a name and click the **Next Button**
+
+![](./images/Rest1.png " ")
+
+-   Enter **/order** in the relative URI column. Select **POST** from the dropdown as the action you want to perform on the endpoint. Check boxes to **configure a request payload** and **configure to receive response**. Then click the **Next Button**.
+
+![](./images/Rest2.png " ")
+
+-   Select **JSON Sample** from the dropdown in the request payload format.
+
+![](./images/Rest3.png " ")
+
+-   Click on **enter sample JSON inline**.
+
+![](./images/Rest4.png " ")
+
+-   Enter the following Payload in the textbox and click the **OK Button**. This is the structure of the request payload format you want your API to have. 
+
+```JSON
+{
+  "TransactionIdentifier" : "Creekside Warehouse-14073",
+  "BuyingPartyName" : "Pinnacle Technologies",
+  "BuyingPartyContactName" : "Isaac Nelson",
+  "BusinessUnitName" : "US1 Business Unit",
+  "ShipToPartyIdentifier" : "A100000000409220",
+  "ShipToPartyName" : "Pinnacle Technologies",
+  "BillToCustomerName" : "Pinnacle Technologies",
+  "ShipToPartySiteIdentifier" : "A300000048361113",
+  "BillToAccountSiteUseIdentifier" : "A300000048361115",
+  "OrderItems" : [ {
+    "ProductId" : "AS46336",
+    "Quantity" : 3
+  }, {
+    "ProductId" : "AS46336",
+    "Quantity" : 3
+  } ]
+}
+
+```
+
+![](./images/Rest5.png " ")
+
 
 ### **STEP 2**: Add Cloud ERP Adapter
 

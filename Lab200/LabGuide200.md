@@ -74,19 +74,31 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ![](./images/SelectERPConnector.png " ")
 
--   You will be prompted to enter a name for the connection you are trying to make. Enter **ERP Cloud** in the name section and the Identifier will autogenerate. Leave the role as **Trigger and Invoke**. 
+-   You will be prompted to enter a name for the connection you are trying to make. Enter **ERP Cloud** in the name section and the Identifier will autogenerate. Leave the role as **Trigger and Invoke**. Click the **Create Button**.
 
-![](./images/da4.jpg " ")
+![](./images/ERPDetails.png " ")
 
--   Once all the details have been filled in. The Digital Assistant confirms the expense line creation, but we would like to update the description. 
+-   We now have to input the credentials for our Oracle ERP Cloud connection. This consists of a connection URL and a security credential. Here the Security credentials are for the user you use to log into ERP Cloud. Please note that the capabilities of the adapter will change according to what roles and responsibility the user has been assigned. For example : If your user doesn't have privileges within the ERP system to view Order Information, you will not be able to use the corresponding APIs with the adapter. 
 
--   To update the description type in **Description is Lunch**
+-   First click on the **Configure Connectivity Button** to enter connection URL. 
 
-![](./images/da5.jpg " ")
+![](./images/ERPConnectandSecure.png " ")
 
--   Confirm your expense by entering the number given in the Digital Assistant's response. 
+![](./images/ERPConnection1.png " ")
 
-![](./images/da6.jpg " ")
+-  Enter connection URL for ERP and click the **OK Button** at the bottom. 
+
+![](./images/ERPConnection2.png " ")
+
+-   Click on the **Configure Security Button** to enter security credentials
+
+-   Enter security credentials and click the **OK Button** at the bottom. 
+
+![](./images/ERPSecurity.png " ")
+
+-   Scroll to the top and click on the **Test Button** and then the **Save Button** 
+
+![](./images/SaveERPAdapter.png " ")
 
 ### **STEP 2**: Create an Expense report using a receipt
 -   One other way to create an expense report in a Digital Assistant is to upload an image of a receipt. The Digital Assistant uses key words scanned from the image to fill in the expense fields.

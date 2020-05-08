@@ -49,19 +49,18 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 -    Database service name
 
--    Create
+-    Create **table**
 
-## Part 2. Interact with ODA that is integrated with ERP Cloud
+## Part 2. Create Connections
 
-### **STEP 1**: Sign-in to ERP Cloud
+### **STEP 1**: Create Connection to Oracle Cloud ERP 
 
--   Navigate to the **ERP Cloud** sign-in page like we did in the last step. From here you are going to enter the username **kerry.lane** and the environment password you copied earlier. 
+-   Log into Oracle Integration cloud and click on **Integrations** from the menu on the left hand side. 
+![](./images/OIChome.png " ")
 
-![](./images/erp2.jpg " ")
+-   This will take you to the Integrations portion of Oracle Integration from where we can build integrations between Applications. Now select **Connections** from the menu on the left to take you to the connections page. 
 
--   Once logged in, you will notice the Digital Assistant icon located at the bottom right hand corner of the page. Click on the **Digital Assistant Icon** and you will notice that the Digital Assistant has initiated the conversation with the Finance Manager. The first thing we are going to showcase is creating an expense report within the Digital Assistant. 
-
-![](./images/da1.jpg " ")
+![](./images/Connections Page.png " ")
 
 -   In the chat window of the Digital Assistant type in **food expenses $15.46**. You will notice that the Digital Assistant recognizes that he wants to create a new expense and will prompt him to enter a few more details.
 

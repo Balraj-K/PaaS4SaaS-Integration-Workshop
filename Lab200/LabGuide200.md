@@ -364,29 +364,74 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
     
    
 
-### **STEP 2**: Interact with ODA
+### **STEP 2**: Map to Data Warehouse
 
--   In this portion of the workshop we are going to get a few updates on the Finance Manager's account.
+-   Click on **Map to DataWarehouse**. Select the **pencil Icon**.
 
--   You can interact with the ODA by typing in the chat box or by clicking the microphone icon in the bottom right.
+![](./images/SelectMaptoDW.png " ")
 
--   Press the microphone button and say **What is the account balance for cleaning?**
+-   Map Data elements according to image below.
 
-![](./images/mobile-1.jpg " ")
+![](./images/MaptoDW.png " ")
 
--   Press the microphone button and say **How much do we owe our suppliers office depot?**
+-   Validate and close mapper.
 
-![](./images/mobile-2.jpg " ")
 
--   Press the microphone button and say **Which account has the largest budget surplus?**
 
-![](./images/mobile-3.jpg " ")
+### **STEP 3**: Map to Data Warehouse
 
--   Press the microphone button and say **Which project has the highest margins?**
+-   Click on **Map to DataWarehouse**. Select the **pencil Icon**.
 
-![](./images/mobile-4.jpg " ")
+![](./images/SelectMaptoRequest.png " ")
 
--   Oracle’s Digital assistant provides broad channel support like slack, teams, sms, mobile apps, text-to-speech, and speech to text capabilities. In this portion of the workshop Oracle's AI Voice is being used with no risky exposure to 3rd party api's.
+-   Map Data elements according to image below.
+
+![](./images/MaptoRequest.png " ")
+
+-   Validate and close mapper.
+
+
+
+### **STEP 3**: Tracking your Integration
+
+-   Click on the hamburger icon on the top right corner and select **Tracking**. 
+
+![](./images/Tracking1.png " ")
+
+-   Drag **TransactionIdentifier** to the **Tracking Field**. All integrations need at least one tracking field assigned before they can be activated. This allows for you to identify your integrations in monitoring and is a useful field to keep track of within running integrations.
+
+![](./images/Tracking2.png " ")
+
+-   Click Save
+
+![](./images/Tracking3.png " ")
+
+
+
+### **STEP 4**:  Enabling your Integration
+
+-   Click the **Switch Button** to activate your integration.
+
+![](./images/Enable1.png " ")
+
+-   Select the check box to **Enable Tracing**. This allows you to see integrations that have run in the **Monitoring** section. 
+
+![](./images/Enable2.png " ")
+
+-   Select the checki box to **Include Payload**. This will allow you to see the data being sent to the integration and how it is being processed. 
+
+![](./images/Enable3.png " ")
+
+-   You can access your activated API by clicking the **Gear Icon** against the integration and clicking the **Endpoint URL**.
+
+![](./images/Enable5.png " ")
+
+
+
+### **STEP 4**: Testing and Monitoring your Integration
+
+
+
 
 ## BONUS: Create a twilio, slack, and/or Facebook channel route to Demo Services ODA
 

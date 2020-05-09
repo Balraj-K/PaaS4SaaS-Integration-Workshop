@@ -297,9 +297,72 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ## Part 3. Map Data
 
-### **STEP 1**: Initial Setup
+### **STEP 1**: Map to CreateERPOrder
 
--   Follow the steps [here](https://demo.oracle.com/apex/f?p=GO:PAGE:0:DSD:NO:1:ID:53992) to install on iOS or Andriod mobile device. 
+-   Click on **Map to CreateERPOrder** and click on the **pencil icon**.
+
+![](./images/MapERP1.png " ")
+
+-   The Mapping canvas will open up. Our goal is to map data elements from the **Source** (column on the left) to the **Target** (column on the right). Expand **request-wrapper** from **Sources** column and **request** from **Target** column.
+
+![](./images/MapERP2.png " ")
+
+-   Expand **Order** under **request**.
+
+![](./images/MapERP3.png " ")
+
+-   You can map data elements from source to targe by clicking and holding the data element and dragging it over to the data element you want to map it to. Click and hold **TransactionIdentifier** and drag it to **SourceTransactionIdentifier**. Once you are over the Target element let go of your mouse and the elements should be mapped. This is signified by a line between both elements. 
+
+-   Also map **TransactionIdentifier** to **SourceTransactionNumber**
+
+![](./images/MapERP4.png " ")
+
+-   Next lets hardcode a value to a target element. Right click on **SourceTransactionSystem** and click on **Create Target Node**. 
+
+![](./images/MapERP5.png " ")
+
+-   A box will pop up in the bottom of the screen. Enter **"LEG1"** and click the check box on the right.
+
+![](./images/MapERP6.png " ")
+
+-   Now we will finish mapping the rest of the data elements from **Source** to **Target**.
+    -   **BuyingPartyName** to **BuyingPartyName**
+    -   **BuyingPartyContactName** to **BuyingPartyContactName**
+    -   Create target node for **TransactionalCurrencyCode** and input **"USD"**. Click on the check box. 
+    -   **BusinessUniteName** to **RequestingBusinessUniteName**
+    -   Create target node for **FreezePriceFlag** and input **"false"**. Click on the check box.
+    -   Create target node for **FreezeShippingChargeFlag** and input **"false"**. Click on the check box.
+    -   Create target node for **FreezeTaxFlag** and input **"false"**. Click on the check box.
+    -   **ShipToPartyIdentifier** to **ShipToPartyIdentifier**.
+    -   **ShipToPartyName** to **ShipToPartyName**.
+    -   **BillToCustomerName** to **BillToCustomerName**.
+    -   Create target node for **Line** -> **SourceTransactionLineIdentifier**. Click on the **Toggle functions Icon** on the top right corner. Expand **Node-set**. Select **{}position** and drag it into the expression box in the bottom. Click on the check box.
+    
+    ![](./images/MapERP7.png " ")
+    
+    ![](./images/MapERP8.png " ")
+    
+    ![](./images/MapERP9.png " ")
+    
+    -   **OrderItems** -> **ProductId** to **Line** -> **ProductNumber**.
+    -   **OrderItems** -> **Quantity** to **Line** -> **OrderedQuantity**.
+    -   Create target node for **Line** -> **OrderedQuantity** -> **@unityCode** and input **"Ea"**. Click on the check box.
+    -   Create target node for **Line** -> **RequestedShipDate**. Click on the **Toggle functions Icon** on the top right corner. Expand **Date**. Select **current-dateTime** and drag it into the expression box in the bottom. Click on the check box.   
+    
+    ![](./images/MapERP10.png " ")
+    
+    -   Create target node for **Line** -> **PaymentTerms**  and input **"Net 30"**. Click on the check box.
+    -   Create target node for **Line** -> **TransactionCategoryCode**  and input **"ORDER"**. Click on the check box.
+    -   **ShipToPartyIdentifier** to **Line** -> **ShipToPartyIdentifier**.
+    -   **ShipToPartyName** to **Line** -> **ShipToPartyName**.
+    -   **BillToCustomerName** to **Line** -> **BillToCustomerName**.
+    -   **BillToAccountSiteUseIdentifier** to **Line** -> **BillToAccountSiteUseIdentifier**.
+    -   Create target node for **Line** -> **UnitSellingPrice** -> **@currencyCode**  and input **"USD"**. Click on the check box.
+
+-   Click the **Validate Button** on the top right corner and then close.   
+    
+    
+   
 
 ### **STEP 2**: Interact with ODA
 

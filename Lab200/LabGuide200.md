@@ -430,17 +430,61 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ### **STEP 4**: Testing and Monitoring your Integration
 
+-   You can test your integration using a tool like Postman. Enter your API URL. Select **POST** Action from the drop down. Under the **Authorization** tab, select **Basic Auth** from the **Type** drop down. Enter the **Username & Password** for your OIC environment. 
 
+![](./images/Postman1.png " ")
 
+-   Fromt the **Body** tab select **raw** type and **JSON** from the drop down for your request payload.
 
-## BONUS: Create a twilio, slack, and/or Facebook channel route to Demo Services ODA
+![](./images/Postman2.png " ")
 
--   [Click here](https://demo.oracle.com/apex/f?p=GO:PAGE:0:DSD:NO:1:ID:76473) to do so.
+-   Enter the following payload to test your API. Then click **Send Button**. 
+
+```JSON
+{ "TransactionIdentifier": "Creekside Warehouse-14073", "BuyingPartyName": "Pinnacle Technologies", "BuyingPartyContactName": "Isaac Nelson", "BusinessUnitName": "US1 Business Unit", "ShipToPartyIdentifier": "100000000409220", "ShipToPartyName": "Pinnacle Technologies", "BillToCustomerName": "Pinnacle Technologies", "ShipToPartySiteIdentifier": "300000048361113", "BillToAccountSiteUseIdentifier": "300000048361115", "OrderItems": [ { "ProductId": "AS46336", "Quantity": 3 }, { "ProductId": "AS46336", "Quantity": 3 } ] }
+```
+
+![](./images/Postman3.png " ")
+
+-   Verify your response payload and that the Status is a **200 OK**.
+
+![](./images/Postman4.png " ")
+
+-   To view runtime details of our integration lets go to the monitoring section.
+
+-   Click the back arrow at the top left corner. 
+
+![](./images/Monitoring1.png " ")
+
+-   Select **Monitoring**.
+
+![](./images/Monitoring2.png " ")
+
+-   Select **Tracking**.
+
+![](./images/Monitoring3.png " ")
+
+-   Find your integration and click on the Transaction Identifier(Our Tracking field).
+
+![](./images/Monitoring4.png " ")
+
+-   Notice that your integration path is all green. If there was an error it would be signified with Red at the point of failure. Click on the **hamburger icon** on the top left.
+
+![](./images/Monitoring5.png " ")
+
+-   Select **Activity Stream**.
+
+![](./images/Monitoring6.png " ")
+
+-   You can view the payload and data transformations that happen through out your integration. Select any of the **messages** for a more in-depth view. This is a very useful tool when trying to debug integrations. 
+
+![](./images/Monitoring7.png " ")
+
 
 
 ## Summary
 
--   In this lab, you requested a demo ERP Cloud instance and interacted with the pre-built Digital Assistant skill for ERP. Oracle Digital Assistant pre-built skills showcase easy, interactive, intuitive and meaningful information without the need to login and open ERP applications.
+-   In this lab, you learned how to build an end to end integration with Oracle Cloud ERP and the Autonomous Data Warehouse using the Oracle integration platforms low-code development platform.
 
 
 -   **You are ready to move on to the next lab!**

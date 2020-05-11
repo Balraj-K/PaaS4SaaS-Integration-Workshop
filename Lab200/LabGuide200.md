@@ -295,7 +295,7 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ![](./images/ADW7.png " ")
 
-## Part 3. Map Data
+## Part 4. Map Data
 
 ### **STEP 1**: Map to CreateERPOrder
 
@@ -392,7 +392,9 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 
 
-### **STEP 3**: Tracking your Integration
+## Part 5. Monitor Integrations
+
+### **STEP 1**: Tracking your Integration
 
 -   Click on the hamburger icon on the top right corner and select **Tracking**. 
 
@@ -408,7 +410,7 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 
 
-### **STEP 4**:  Enabling your Integration
+### **STEP 2**:  Enabling your Integration
 
 -   Click the **Switch Button** to activate your integration.
 
@@ -428,7 +430,7 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 
 
-### **STEP 4**: Testing and Monitoring your Integration
+### **STEP 3**: Testing and Monitoring your Integration
 
 -   You can test your integration using a tool like Postman. Enter your API URL. Select **POST** Action from the drop down. Under the **Authorization** tab, select **Basic Auth** from the **Type** drop down. Enter the **Username & Password** for your OIC environment. 
 

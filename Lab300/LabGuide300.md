@@ -1,4 +1,4 @@
-# Lab 400: Integrating Cloud ERP with OIC (INTERNAL ONLY)
+# Lab 300: Integrating Cloud ERP with OIC (INTERNAL ONLY)
 
 <!-- Comment out table of contents
 ## Table of Contents
@@ -157,23 +157,6 @@
 
 ![](./images/form22.png " ")
 
-- Now click the select box under Quantity. Then click the blue plus sign to the right of events. 
-
-![](./images/form23.png " ")
-
-- Select 'On Change'
-
-![](./images/form27.png " ")
-
-- Configure your On change per the above. This will hardcode a value of 15000 for your total price. In a future lab we will discuss dynamically calculating this field. 
-
-![](./images/form28.png " ")
-
-- Drag and drop another Input Text field from the right and place it under the Total Price field. Give it the same Name, Label, and Binding. 
-
-![](./images/form29.png " ")
-
-- On the left, scroll down on that fields properties and select the hide box. 
 
 - Now you can press save, and close the 'OrderEntryForm' tab to return to the process designer.
 

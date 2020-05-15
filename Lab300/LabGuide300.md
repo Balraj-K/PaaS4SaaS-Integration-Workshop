@@ -89,9 +89,17 @@
 
 ![](./images/form3.png " ")
 
+- For the properties, scroll down to the options source section, and input these static options.
+
+![](./images/60.png " ")
+
 - Drag another and place it to its right. 
 
 ![](./images/form4.png " ")
+
+- For payment terms, do the same and input these values.
+
+![](./images/61.png " ")
 
 - Click your select box and give it the following Name & Label. 
 
@@ -309,11 +317,118 @@ Click 'TaskOutcomeDataObject' then Insert Into Express. Complete the expression 
 
 ![](./images/51.png " ")
 
+
+
+![](./images/62.png " ")
+
+- Enter these hardcoded values for the respective fields on the right. These hardcoded values will vary for each ERP system, but these are the mandatory fields the API requires to create a new order.
+
+![](./images/64.png " ")
+
+![](./images/63.png " ")
+
+- On the bottom, drag your table data object from the left, and map it to the orderItems table on the right.
+
+![](./images/66.png " ")
+
+- You will see this warning. Press the box in between.
+
+
+![](./images/67.png " ")
+
+- Change the condition to add.
+
+![](./images/69.png " ")
+
+- Create a new transformation.
+
+![](./images/65.png " ")
+
+- This is what it should look like on your mapper now
+
+![](./images/70.png " ")
+
+- Map the fields from your form table to the fields in the Fusion table like so.
+
+![](./images/48.png " ")
+
+- Your process is complete and should like this now. 
+
+![](./images/71.png " ")
+
+- Click publish, add a comment, then click the publish button.
+
+![](./images/72.png " ")
+
+- After hitting publish, press activate in the blue box, then 'Try in Test Mode' in the green box.
+
+![](./images/73.png " ")
+
+- Press activate, leave the checkbox as is.
+
+![](./images/74.png " ")
+
+- You should see this confirmation
+
+![](./images/75.png " ")
+
+
+
+
+
+
 - Map the data objects from the form to the fields that are submitted to the integration.
 
 ![](./images/52.png " ")
 
 - Press save and test.
+
+### **STEP 5**: Test your Process:
+
+- Click on **Create Order** in **My Apps** section.
+
+![](./images/87.png " ")
+
+- Select **EXW** for Incoterms, **Net 60** for Payment terms, input a PO date. Click on the blue + icon. Add **Vario tablet** as the table name, quantity is **3** and unit price **300**. Click **Submit**
+
+![](./images/78.png " ").
+
+- Since the condition to forward the order to the Process owner isn't satisfied the integration will be directly called. You can view Integration status from the monitoring section underneath integration as mentioned in the previous labs.
+
+![](./images/81.png " ").
+
+![](./images/82.png " ").
+
+![](./images/83.png " ").
+
+![](./images/84.png " ").
+
+- Test the process again. Enter quantity and net price such that total is over $15,000 and submit. 
+
+![](./images/86.png " ").
+
+- Select **My Tasks** from the menu on the right. 
+
+![](./images/90.png " ").
+
+- Select your process. 
+
+![](./images/91.png " ").
+
+- You can view your process details. Note that when you are reviewing your process you are reviewing it as a proces owner. Once you review your process details you can approve/reject 
+
+![](./images/92.png " ").
+
+- Go to **Processes** on the menu.
+
+![](./images/93.png " ").
+
+- You can view your end process flow here to see if it was succesful.
+
+![](./images/94.png " ").
+
+![](./images/95.png " ").
+
 
 
 ## Summary

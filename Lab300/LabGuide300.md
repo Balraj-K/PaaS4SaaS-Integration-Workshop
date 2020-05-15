@@ -382,13 +382,6 @@ Click 'TaskOutcomeDataObject' then Insert Into Express. Complete the expression 
 
 
 
-
-
-
-- Map the data objects from the form to the fields that are submitted to the integration.
-
-![](./images/52.png " ")
-
 - Press save and test.
 
 ### **STEP 5**: Test your Process:

@@ -163,6 +163,14 @@
 
 - Configure the same Name, Label, and Binding. 
 
+![](./images/76.png " ")
+
+- Click Total price box and scroll down on the left menu to its binding.
+
+![](./images/77.png " ")
+
+- Configure the computed value to match the above screenshot.
+
 ![](./images/form22.png " ")
 
 
